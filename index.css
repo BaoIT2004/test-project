@@ -1,3 +1,64 @@
-.hi{
-    color: red;
+  body {
+      font-family: Arial, sans-serif;
+      
+  }
+
+  .hd {
+    width: 100%;
+    height: 50px;
+    background-color: greenyellow;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  table {
+      width: 100%;
+      border-collapse: separate;
+      /* dùng separate để dễ tạo hiệu ứng */
+      border-spacing: 0;
+      /* không khoảng cách giữa ô */
+      margin-bottom: 20px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      /* đổ bóng mờ bảng */
+      border-radius: 10px;
+      overflow: hidden;
+  }
+
+.kpi-value_2{
+    color: #32cd32;
 }
+
+  th,
+  td {
+      border: 1px solid rgba(136, 136, 136, 0);
+      /* làm viền mờ nhẹ */
+      padding: 8px 10px;
+      text-align: center;
+      backdrop-filter: blur(2px);
+      /* tùy chọn nếu bạn muốn nền bảng mờ */
+  }
+
+  th {
+      background-color: #d9e1f2;
+  }
+
+
+  .controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+  }
+
+  .controls select,
+  .controls button {
+      padding: 5px 10px;
+      font-size: 16px;
+  }
+
+  .highlight {
+      background-color: #d0e0ff;
+  }
